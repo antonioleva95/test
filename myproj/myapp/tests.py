@@ -9,4 +9,6 @@ class contentTest (TestCase):
         content.objects.create(name="Boy", description="boy", country="NewZeland", cost='25', count=3)
     def test_how_much_pictures(self):
         summa=content.objects.get(id=1)
-        self.assertEqual(summa.sum(),4)    
+        self.assertEqual(summa.sum(),4)  
+
+''' dsfdsf'''  
