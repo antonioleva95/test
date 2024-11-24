@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .form{
+        position:center;
+    }
+
+    </style>
+</head>
+<body>
+    <div align="center", backgroundcolor="black">
+
+        <div>
+            <H3>Регистрация картины</H3>
+        </div>
+    <form action="" method="POST" >
+        {% csrf_token %}
+        <div>
+            <div>Введите наименование</div>
+            <input type="text" name="name" required>
+        </div>
+        <div>Введите описание</div>
+        <div>
+            <input type="text" name="description" required>
+        </div>
+
+    <div>Страна происхождения</div>
+        <div>
+            <input type="text" name="country" required>
+        </div>
+        <div>Стоимость</div>
+        <div>
+            <input type="text" name="cost" required>
+        </div>
+        <div>Количество</div>
+        <div>
+            <input type="text" name="count" required>
+        </div>
+        <div>
+
+            <input type="submit" value="подтвердить" required>
+        </div>
+    </form>
+</div>
+
+
+
+</body>
+</html>
