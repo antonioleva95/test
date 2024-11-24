@@ -26,6 +26,8 @@ class content(models.Model):
         return summ
 
 #hello world
+#hsafgsagsgsgaga
+##13131
 
 
 
