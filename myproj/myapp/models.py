@@ -25,6 +25,7 @@ class content(models.Model):
 
         return summ
 
+#hello world
 
 
 
